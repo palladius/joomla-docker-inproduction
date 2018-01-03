@@ -22,7 +22,7 @@ joomladb:
 
 # The below phpmyadmin is optional. Remove it if you do not require it.
 # Never expose phpmyadmin to the internet!
-phpmyadmin: 
+phpmyadmin:
     image: phpmyadmin/phpmyadmin
     environment:
      - PMA_ARBITRARY=1
